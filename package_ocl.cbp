@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="package_ocl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/package_ocl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/package_ocl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="client_app.cpp" />
+		<Unit filename="diagonal_matrix.h" />
+		<Unit filename="diagonal_matrix_impl.cpp" />
+		<Unit filename="login.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="matrix.h" />
+		<Unit filename="matrix_impl.cpp" />
+		<Unit filename="square_matrix.h" />
+		<Unit filename="square_matrix_impl.cpp" />
+		<Unit filename="symmetric_matrix.h" />
+		<Unit filename="symmetric_matrix_impl.cpp" />
+		<Unit filename="triangular_matrix.h" />
+		<Unit filename="triangular_matrix_impl.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
